@@ -19,8 +19,14 @@ Lua内存快照对比分析工具
 <br>
 2.使用示例
 <br>
-[](https://github.com/xiaozai511/LuaMemorySnapShot/blob/master/example/refrence.jpg)
+查看
 <br>
-![111](https://github.com/xiaozai511/LuaMemorySnapShot/blob/master/example/compare.jpg)
+![](https://github.com/xiaozai511/LuaMemorySnapShot/blob/master/example/refrence.jpg)
 <br>
-![111](https://github.com/xiaozai511/LuaMemorySnapShot/blob/master/example/filter.jpg)
+对比
+<br>
+![](https://github.com/xiaozai511/LuaMemorySnapShot/blob/master/example/compare.jpg)
+<br>
+过滤
+<br>
+![](https://github.com/xiaozai511/LuaMemorySnapShot/blob/master/example/filter.jpg)
