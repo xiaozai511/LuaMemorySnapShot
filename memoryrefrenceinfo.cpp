@@ -282,7 +282,7 @@ void MemoryRefrenceInfoMgr::parse(const QString& strInfo, MemoryRefrenceInfoMgr*
 	}
 	info->setType(strType);
 	info->setValue(strValue);
-	info->setRefCount(infos[3].toInt());
+	info->setRefCount(infos[3].toInt() + info->getRefCount());
 
 	//register parent
 	MemoryRefrenceInfo* pChild = info;
