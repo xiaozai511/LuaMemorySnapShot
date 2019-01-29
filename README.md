@@ -15,20 +15,20 @@ Lua内存快照对比分析工具
 2.参考memory/MemorySnapShot.lua中MemorySnapShot函数的用法，导出内存快照
 <br><br>
 ## 分析快照
-1.使用QT5.9.2配置编译
+1.使用QT5.9.2编译
 <br>
 2.配置快照文件目录，或者直接查找到目录打开
 <br>
-2.使用示例
+3.使用示例
 <br><br>
-查看
+3.1 查看
 <br>
 ![](https://github.com/xiaozai511/LuaMemorySnapShot/blob/master/example/refrence.jpg)
 <br><br>
-对比
+3.2 对比
 <br>
 ![](https://github.com/xiaozai511/LuaMemorySnapShot/blob/master/example/compare.jpg)
 <br><br>
-过滤
+3.3 过滤
 <br>
 ![](https://github.com/xiaozai511/LuaMemorySnapShot/blob/master/example/filter.jpg)
