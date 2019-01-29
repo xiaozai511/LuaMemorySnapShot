@@ -7,12 +7,20 @@ Lua内存快照对比分析工具
 当前在处理大文件时，解析比较耗时，跟踪发现耗时基本都是引用关系链的处理上，待后续有时间再优化吧！
 <br>
 【快照工具原地址：yaukeywang/LuaMemorySnapshotDump】(https://github.com/yaukeywang/LuaMemorySnapshotDump)
-
+<br><br>
 # Usage
 ## 导出快照文件
 1.将memory/MemoryReferenceInfo.lua集成到工程中
 <br>
 2.参考memory/MemorySnapShot.lua中MemorySnapShot函数的用法，导出内存快照
-<br>
+<br><br>
 ## 分析快照
-
+1.使用QT5.9.2配置编译
+<br>
+2.使用示例
+<br>
+![111](https://github.com/xiaozai511/LuaMemorySnapShot/blob/master/example/refrence.jpg)
+<br>
+![111](https://github.com/xiaozai511/LuaMemorySnapShot/blob/master/example/compare.jpg)
+<br>
+![111](https://github.com/xiaozai511/LuaMemorySnapShot/blob/master/example/filter.jpg)
