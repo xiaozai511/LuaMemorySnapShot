@@ -415,7 +415,7 @@ void MemoryRefrenceInfoMgr::setRunning(bool bRun)
 
 void MemoryRefrenceInfoMgr::run()
 {
-#if 1
+#if 0
 	//test
 	this->parse("function: 000000A4E124E570	registry.2[_G].RankListModule.[metatable].__newindex.[ups:table:vtbl].Instance.delete_me[line:88@file:[string \"scripts/engine/baseclass.lua\"]]	2780");
 	this->parse("function: 00007FFA73E43530	registry.2[_G].StringUtils.split.[ups:function:strSub][line:-1@file:[C]]	7");
